@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<title> Calculadora </title>
+<link rel="stylesheet" href="./css/styles.css" type="text/css">
+<meta charset="UTF-8">
+
+<script type="text/javascript" defer src="./javascript/archivos.js"></script>
+<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/3616/3616624.png">
+</head>
+<body>
+    <p class="texto"> Calculadora</p>
+    <div class="total"> <p class="totalTexto" id="totalTexto" ></p></div>
+    <section class="calculadora"> 
+        <div class="botones">
+<button class="boton" onclick="botones('7')">7</button>
+<button class="boton" onclick="botones('8')">8</button>
+<button class="boton" onclick="botones('9')">9</button>
+<button class="boton" id="del" onclick='borrar(), ver()' >DEL</button>
+<button class="boton" onclick="botones('4')">4</button>
+<button class="boton" onclick="botones('5')">5</button>
+<button class="boton" onclick="botones('6')">6</button>
+<button class="boton" onclick="operadores('+')">+</button>
+<button class="boton" onclick="botones('1')">1</button>
+<button class="boton" onclick="botones('2')">2</button>
+<button class="boton" onclick="botones('3')">3</button>
+<button class="boton" onclick="operadores('-')">-</button>
+<button class="boton" onclick="botones('.')">.</button>
+<button class="boton" onclick="botones('0')">0</button>
+<button class="boton" onclick="operadores('/'), tam()">/</button>
+<button class="boton" onclick=" operadores('x'), tam()">x</button>
+        </div>
+        
+<button class="reset" onclick="limpiar()"> RESET</button>
+<button class="igual" onclick="operadores(3), hacerCuenta(), hacer()" > = </button>
+<div class="hab">Desarrollada por Carlos Julian Lopez</div>
+    </section>
+    
+</body>
+</html>
