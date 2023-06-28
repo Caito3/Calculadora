@@ -5,7 +5,6 @@ var arrayCuenta = []
 var arrayOp = []
 var arrayUnion = []
 
-
 var res = 0 
 var llevar = 0 
 var texto = ""
@@ -13,6 +12,8 @@ var a = 0
 var mantenerRes = 1
 var op = 0 
 var aaa = 0
+
+
 //Con esta funcion hacemos que se muestren por pantalla los numeros ingresados y los guardamos en un array para luego utilizarlos
 function botones(x){
     
