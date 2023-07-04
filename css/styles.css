@@ -4,7 +4,8 @@
     height:20vh;
     margin-left: 30%;
     border-radius: 8px;
-    border-bottom:3px solid rgb(143, 142, 142)
+    border-bottom:3px solid rgb(143, 142, 142);
+    
 }
 .calculadora{
     width:38%;
@@ -73,8 +74,8 @@ html{
 }
 .totalTexto{
     padding-top: 5vh;
-    margin-left: 3%;
-    font-size: 50px;
+    margin-left: 13%;
+    font-size: 300%;
     font-family: 'verdana';
     font-weight: 500;
     width: 80%;
@@ -94,7 +95,7 @@ html{
 
 .texto{
     margin-bottom: -5vh;
-    margin-left: 40%;
+    margin-left: 40.9%;
     font-family: 'verdana';
     font-size: 30px;
     font-weight: 800;

@@ -26,8 +26,8 @@ function botones(x){
     var aaa = totalTexto.textContent
     }
     if(aaa.length >= 3){
-        totalTexto.style.fontSize="30px"
-        totalTexto.style.marginTop="10%"
+        totalTexto.style.fontSize="230%"
+        totalTexto.style.marginTop="9.3%"
         aaa += texto
         totalTexto.innerHTML= aaa
     }else{
@@ -37,10 +37,10 @@ function botones(x){
     
 }
 
-
 //Hacemos que si se quiere multiplicar o dividir se muestre el resultado y luego se permite continuar
 function tam(){
     if(arrayOp.length >1){
+        
     if(arrayOp[arrayOp.length-1] == "x"){
         hacerCuenta()
         hacer()
@@ -52,6 +52,21 @@ function tam(){
         hacerCuenta()
         hacer()
         operadores('/')
+    }
+    
+    else if(arrayOp[arrayOp.length-1] == "+"){
+        
+        hacerCuenta()
+        hacer()
+        operadores('+')
+        
+        
+    }
+    else if(arrayOp[arrayOp.length-1] == "-"){
+        
+        hacerCuenta()
+        hacer()
+        operadores('-')
     }
 }
 
@@ -71,14 +86,17 @@ function operadores(x){
     
     array.push(totalPrimero)
     var total = array.join('')
-    if(total != ""){
+
+        if(total != ""){
     var total = Number(total)
     arrayCuenta.push(total)
-}
+        }
     arrayOp.push(x)
-    
+    if(arrayOp.length > 1){
+        arrayOp.shift
+        
+    }
 arrayUnion = []
-
 array = []
     
 }
@@ -115,14 +133,18 @@ function hacerCuenta(){
             else if (a > 2 && arrayOp[op + 1] == "/"){
                 break
             }
+            else if (a > 2 && arrayOp[op + 1] == "-"){
+                break
+            }
             
             res += arrayCuenta[a]
-            
             i++
             a++
             contador++
             
             if( a > 2 && arrayOp[op+1] == "-"){
+                
+                
                 break
             }
             if (contador >= 2){
@@ -136,6 +158,7 @@ function hacerCuenta(){
         if(arrayOp[op] == "-"){
             
             contador = 0 
+            
             arrayCuenta = arrayCuenta.filter(number => number >= 0)
             
             
@@ -147,12 +170,17 @@ function hacerCuenta(){
             else if (a > 2 && arrayOp[op + 1] == "/"){
                 break
             }
+            else if (a > 2 && arrayOp[op + 1] == "-"){
+                break
+            }
+
             if( a > 1){
             
             res = res - arrayCuenta[a]
             i++
             a++
             contador++
+            
             }
             else{
                 
@@ -160,6 +188,7 @@ function hacerCuenta(){
             i++
             a++
             contador++
+            
             }
             
             if(contador >= 2){
