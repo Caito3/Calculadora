@@ -58,6 +58,9 @@ html{
     margin-top: 3vh;
     cursor: pointer;
 }
+.reset:hover{
+    background-color: #2edfb3;
+}
 .igual{
     position: relative;
     width:40%;
@@ -87,23 +90,24 @@ html{
     border-bottom: 3px solid #2e7965;
     font-size: 17px;
 }
-
-
-
-
+#del:hover{
+    background-color: #2edfb3;
+}
 
 
 .texto{
     margin-bottom: -5vh;
-    margin-left: 40.9%;
-    font-family: 'verdana';
+    margin-left: 41%;
+    font-family: 'Comfortaa', 'cursive';
     font-size: 30px;
     font-weight: 800;
     color:gray;
     margin-top:2vh;
     text-shadow: 3px 3px 3px white;
 }
-
+.boton:hover{
+    background-color: #a7a9a9;
+}
 
 
 .hab{
@@ -113,7 +117,7 @@ top:-30%;
 width: 40%;
 font-size: 103%;
 font-weight: 800;
-color: #737375;
+color: #8e8e8f;
 text-align: center;
 text-shadow: 1px 1px 3px white;
 }
