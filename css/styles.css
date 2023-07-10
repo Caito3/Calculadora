@@ -126,14 +126,14 @@ text-shadow: 1px 1px 3px white;
 }
 @media only screen and (max-width: 800px){
     .texto{
-        margin-left: 34.8%;
+        margin-left: 3.8%;
     }
 }
 @media only screen and (max-width: 500px ){
 
     .texto{
-        margin-left: 23%;
-        margin-top: 0.3vh;
+        margin-left: 22.3%;
+        margin-top: 0vh;
     }
     .total{
         height: 20vh;
