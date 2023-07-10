@@ -133,6 +133,7 @@ text-shadow: 1px 1px 3px white;
 
     .texto{
         margin-left: 23%;
+        margin-top: 0.3vh;
     }
     .total{
         height: 20vh;
