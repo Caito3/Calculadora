@@ -126,7 +126,7 @@ text-shadow: 1px 1px 3px white;
 }
 @media only screen and (max-width: 800px){
     .texto{
-        margin-left: 35.8%;
+        margin-left: 34.8%;
     }
 }
 @media only screen and (max-width: 500px ){
@@ -141,8 +141,8 @@ text-shadow: 1px 1px 3px white;
         margin-left: 3%
     }
     .calculadora{
-        width: 83%;
-        margin-left: 8%;
+        width: 94%;
+        margin-left: 3%;
         
     }
     .boton{
