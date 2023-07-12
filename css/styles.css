@@ -57,6 +57,7 @@ html{
     font-weight: 800;
     margin-top: 3vh;
     cursor: pointer;
+    transition: 0.3s;
 }
 .reset:hover{
     background-color: #2edfb3;
@@ -74,6 +75,7 @@ html{
     font-size: 22px;
     font-weight: 800;
     cursor: pointer;
+    transition: 0.3s;
 }
 .igual:hover{
     background-color: #f86e12;
@@ -92,6 +94,7 @@ html{
     border: none;
     border-bottom: 3px solid #2e7965;
     font-size: 17px;
+    transition: 0.3s;
 }
 #del:hover{
     background-color: #2edfb3;
