@@ -37,7 +37,7 @@ function botones(x){
     
 }
 
-//Hacemos que si se quiere multiplicar o dividir se muestre el resultado y luego se permite continuar
+//Hacemos que se muestre el resultado y luego se permita continuar
 function tam(){
     if(arrayOp.length >1){
         
@@ -127,16 +127,6 @@ function hacerCuenta(){
             arrayCuenta = arrayCuenta.filter(number => number >= 0)
         while (a < arrayCuenta.length ){
             
-            if (a > 2 && arrayOp[op + 1] == "x"){
-                break
-            }
-            else if (a > 2 && arrayOp[op + 1] == "/"){
-                break
-            }
-            else if (a > 2 && arrayOp[op + 1] == "-"){
-                break
-            }
-            
             res += arrayCuenta[a]
             i++
             a++
@@ -164,16 +154,7 @@ function hacerCuenta(){
             
         while (a < arrayCuenta.length ){
             
-            if (a > 2 && arrayOp[op + 1] == "x"){
-                break
-            }
-            else if (a > 2 && arrayOp[op + 1] == "/"){
-                break
-            }
-            else if (a > 2 && arrayOp[op + 1] == "-"){
-                break
-            }
-
+            
             if( a > 1){
             
             res = res - arrayCuenta[a]
@@ -203,16 +184,7 @@ function hacerCuenta(){
         mantener = arrayCuenta.filter(number => number >= 0)
         while(a < mantener.length ){
             
-            if(a > 2 && arrayOp[op + 1] == "+"){
-                break
-            }
-            else if (a > 2 && arrayOp[op + 1] == "-"){
-                break
-            }
-            else if (a > 2 && arrayOp[op + 1] == "/"){
-                break
-            }
-
+            
             if(a < 1){
                 res = mantenerRes
                 mantenerRes *= mantener[a]
@@ -220,6 +192,7 @@ function hacerCuenta(){
             }
             else {
             res *= mantener[a]
+            
             }
             i++
             a++
@@ -238,15 +211,6 @@ function hacerCuenta(){
         mantener = arrayCuenta.filter(number => number >= 0)
         
         while(a < mantener.length ){
-            if(a > 2 && arrayOp[op + 1] == "+"){
-                break
-            }
-            else if (a > 2 && arrayOp[op + 1] == "x"){
-                break
-            }
-            else if (a > 2 && arrayOp[op + 1] == "/"){
-                break
-            }
             
             mantenerRes = mantener[a]
                 
