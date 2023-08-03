@@ -27,7 +27,7 @@ function botones(x){
     }
     if(aaa.length >= 3){
         totalTexto.style.fontSize="230%"
-        totalTexto.style.marginTop="9.3%"
+        totalTexto.style.marginTop="10.3%"
         aaa += texto
         totalTexto.innerHTML= aaa
     }else{
