@@ -129,7 +129,7 @@ text-shadow: 1px 1px 3px white;
 }
 @media only screen and (max-width: 800px){
     .texto{
-        margin-left: 3.8%;
+        margin-left: 35%;
     }
 }
 @media only screen and (max-width: 500px ){

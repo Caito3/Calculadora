@@ -25,11 +25,13 @@ function botones(x){
     var totalTexto = document.getElementById("totalTexto")
     var aaa = totalTexto.textContent
     }
-    if(aaa.length >= 3){
-        totalTexto.style.fontSize="230%"
+    if(aaa.length >= 3 && screen.width < 800){
+        totalTexto.style.fontSize="210%"
         totalTexto.style.marginTop="13%"
+        totalTexto.style.marginLeft= "1.3%"
         aaa += texto
         totalTexto.innerHTML= aaa
+        
     }else{
     aaa += texto
     totalTexto.innerHTML= aaa
